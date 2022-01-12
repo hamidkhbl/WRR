@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f155305e-04a0-40a3-8c78-a4c9a8f3eea9": {
+      "ProjectGuid": "f155305e-04a0-40a3-8c78-a4c9a8f3eea9",
+      "DisplayName": "WRR.BL",
+      "ColorIndex": 0
+    },
+    "f0b11a76-e48b-4157-949e-aa1b0d18f194": {
+      "ProjectGuid": "f0b11a76-e48b-4157-949e-aa1b0d18f194",
+      "DisplayName": "WRR.BLTest",
+      "ColorIndex": 1
+    },
+    "398e74ad-98ed-4f33-9113-b709aba28577": {
+      "ProjectGuid": "398e74ad-98ed-4f33-9113-b709aba28577",
+      "DisplayName": "Tests",
+      "ColorIndex": 2
+    },
+    "ae41ca0b-056b-4025-b986-56ecfc6fc607": {
+      "ProjectGuid": "ae41ca0b-056b-4025-b986-56ecfc6fc607",
+      "DisplayName": "WRR.BL",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

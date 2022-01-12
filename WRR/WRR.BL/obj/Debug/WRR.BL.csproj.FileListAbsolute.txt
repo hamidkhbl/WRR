@@ -1,0 +1,6 @@
+C:\Users\hkhodabandehloo\source\repos\WRR\WRR\WRR.BL\bin\Debug\WRR.BL.dll
+C:\Users\hkhodabandehloo\source\repos\WRR\WRR\WRR.BL\bin\Debug\WRR.BL.pdb
+C:\Users\hkhodabandehloo\source\repos\WRR\WRR\WRR.BL\obj\Debug\WRR.BL.csproj.AssemblyReference.cache
+C:\Users\hkhodabandehloo\source\repos\WRR\WRR\WRR.BL\obj\Debug\WRR.BL.csproj.CoreCompileInputs.cache
+C:\Users\hkhodabandehloo\source\repos\WRR\WRR\WRR.BL\obj\Debug\WRR.BL.dll
+C:\Users\hkhodabandehloo\source\repos\WRR\WRR\WRR.BL\obj\Debug\WRR.BL.pdb
