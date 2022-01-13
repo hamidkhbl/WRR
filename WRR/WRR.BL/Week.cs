@@ -10,7 +10,19 @@ namespace WRR.BL
     {
         public Week()
         {
+            
+        }
 
+        public Week(DateTime startDate, DateTime endDate)
+        {
+            StartDate = startDate; 
+            EndDate = endDate;
+
+            if (Validate())
+                _title = StartDate.ToString("MMMM ") + StartDate.Day.ToString() + " - " + EndDate.ToString("MMMM ") + EndDate.Day.ToString();
+            else
+                // TODO: Log error
+                _title = string.Empty;
         }
 
         public Week(int weekId)
@@ -22,6 +34,13 @@ namespace WRR.BL
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public List<DateTime> days { get; private set; }
+
+        private string _title;
+        public string Title
+        {
+            get { return _title; }
+        }
+
 
         public bool Validate()
         {

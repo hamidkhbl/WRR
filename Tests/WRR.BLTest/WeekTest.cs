@@ -88,5 +88,33 @@ namespace WRR.BLTest
             // Assert
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void TitleValidWeek()
+        {
+            // Arrange
+            Week week = new Week(new DateTime(year: 2022, month: 1, day: 1), new DateTime(year: 2022, month: 1, day: 7));
+            string expected = "January 1 - January 7";
+
+            // Act
+            string actual = week.Title;
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void TitleInValidWeek()
+        {
+            // Arrange
+            Week week = new Week(new DateTime(year: 2022, month: 1, day: 1), new DateTime(year: 2022, month: 1, day: 6));
+            string expected = String.Empty;
+
+            // Act
+            string actual = week.Title;
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
